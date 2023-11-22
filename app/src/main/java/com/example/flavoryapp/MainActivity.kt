@@ -1,10 +1,7 @@
-package com.example.flavoryapp.uis.view
+package com.example.flavoryapp
 
 import android.graphics.PorterDuff
 import android.os.Bundle
-import android.os.Handler
-import android.os.Looper
-import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
@@ -12,26 +9,18 @@ import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
 import com.example.flavoryapp.R
 import com.example.flavoryapp.databinding.ActivityMainBinding
-import com.example.flavoryapp.uis.view.search.SearchFragment
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayout.OnTabSelectedListener
 import com.google.android.material.tabs.TabLayoutMediator
 
-class MainActivity : AppCompatActivity(),
-    HomeFragment.HomeFragmentListener,
-    FavoriteFragment.FavoriteListener,
-    SearchFragment.SearchListener {
-
-
+class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding
-
 
     private val imageList = intArrayOf(
         R.drawable.nav_home,
         R.drawable.nav_search,
         R.drawable.nav_fav,
         R.drawable.nav_more,
-        R.drawable.ic_swap
     )
 
     private lateinit var pagerAdapter: MyPagerAdapter
@@ -39,7 +28,6 @@ class MainActivity : AppCompatActivity(),
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
 
         binding.viewPager.isUserInputEnabled = false
 
@@ -50,7 +38,6 @@ class MainActivity : AppCompatActivity(),
         fragments.add(ProfileFragment())
 
         //code to change selected tab color
-
         binding.tabLayout.addOnTabSelectedListener(object : OnTabSelectedListener {
             override fun onTabSelected(tab: TabLayout.Tab) {
                 tab.icon!!.setColorFilter(
@@ -88,7 +75,6 @@ class MainActivity : AppCompatActivity(),
                     ), PorterDuff.Mode.SRC_IN
                 )
             }
-
             override fun onTabReselected(tab: TabLayout.Tab) {}
         })
 
@@ -116,28 +102,6 @@ class MainActivity : AppCompatActivity(),
 
         override fun getItemCount(): Int {
             return fragments.size
-        }
-    }
-
-    override fun refreshFavoriteFragment() {
-        Handler(Looper.getMainLooper()).post {
-            val positionOfFavorite = 2
-            val fragment = pagerAdapter.createFragment(positionOfFavorite)
-            pagerAdapter.notifyItemChanged(positionOfFavorite)
-            if (fragment is FavoriteFragment) {
-                Log.e("Favorite fragment ", "refreshed")
-            }
-        }
-    }
-
-    override fun refreshHomeFragment() {
-        Handler(Looper.getMainLooper()).post {
-            val positionOfFavorite = 0
-            val fragment = pagerAdapter.createFragment(positionOfFavorite)
-            pagerAdapter.notifyItemChanged(positionOfFavorite)
-            if (fragment is HomeFragment) {
-                Log.e("Home fragment ", "refreshed")
-            }
         }
     }
 }

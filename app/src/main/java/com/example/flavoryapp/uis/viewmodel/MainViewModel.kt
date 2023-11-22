@@ -23,7 +23,6 @@ class MainViewModel(private val mRepository: MainRepository, mContext: Context) 
     val dataIntent = Channel<DataIntent>(Channel.UNLIMITED)
     val dataState = MutableStateFlow<DataState>(DataState.Inactive)
 
-
     val db = Room.databaseBuilder(
         mContext.applicationContext,
         AppDatabase::class.java, "recipe-palette"

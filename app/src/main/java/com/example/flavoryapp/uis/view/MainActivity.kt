@@ -18,7 +18,6 @@ import com.google.android.material.tabs.TabLayout.OnTabSelectedListener
 import com.google.android.material.tabs.TabLayoutMediator
 
 class MainActivity : AppCompatActivity(),
-    MoreFragment.MoreFragmentListener,
     HomeFragment.HomeFragmentListener,
     FavoriteFragment.FavoriteListener,
     SearchFragment.SearchListener {
@@ -48,7 +47,7 @@ class MainActivity : AppCompatActivity(),
         fragments.add(HomeFragment())
         fragments.add(SearchFragment())
         fragments.add(FavoriteFragment())
-        fragments.add(UnitConverterFragment())
+        fragments.add(ProfileFragment())
 
         //code to change selected tab color
 
@@ -118,10 +117,6 @@ class MainActivity : AppCompatActivity(),
         override fun getItemCount(): Int {
             return fragments.size
         }
-    }
-
-    override fun onUnitConverterClicked() {
-
     }
 
     override fun refreshFavoriteFragment() {

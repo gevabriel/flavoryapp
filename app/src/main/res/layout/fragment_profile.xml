@@ -27,8 +27,8 @@
                 android:padding="15dp">
 
                 <com.google.android.material.imageview.ShapeableImageView
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
                     android:layout_gravity="center"
                     android:src="@drawable/user"/>
                 <LinearLayout

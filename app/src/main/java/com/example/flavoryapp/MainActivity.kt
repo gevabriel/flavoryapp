@@ -7,7 +7,6 @@ import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import com.example.flavoryapp.R
 import com.example.flavoryapp.databinding.ActivityMainBinding
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayout.OnTabSelectedListener
@@ -19,7 +18,7 @@ class MainActivity : AppCompatActivity() {
     private val imageList = intArrayOf(
         R.drawable.nav_home,
         R.drawable.nav_search,
-        R.drawable.nav_fav,
+        R.drawable.nav_recipes,
         R.drawable.nav_more,
     )
 
@@ -34,7 +33,7 @@ class MainActivity : AppCompatActivity() {
         val fragments: MutableList<Fragment> = ArrayList()
         fragments.add(HomeFragment())
         fragments.add(SearchFragment())
-        fragments.add(FavoriteFragment())
+        fragments.add(MyrecipesFragment())
         fragments.add(ProfileFragment())
 
         //code to change selected tab color
@@ -54,7 +53,7 @@ class MainActivity : AppCompatActivity() {
                     }
 
                     2 -> {
-                        binding.toolbar.toolbarTitle.text = getString(R.string.nav_favorite)
+                        binding.toolbar.toolbarTitle.text = getString(R.string.nav_recipes)
                     }
 
                     3 -> {

@@ -2,10 +2,9 @@
     <string name="app_name">Flavory</string>
     <string name="nav_converter">Profile</string>
     <string name="nav_search">Search</string>
-    <string name="nav_favorite">Favorites</string>
+    <string name="nav_recipes">My Recipes</string>
     <string name="recipe_search_hint">Enter recipe name</string>
     <string name="ingredient_search_hint">Enter ingredients name</string>
-    <string name="note">Note: You can enter multiple ingredients separated by comma (,)</string>
 
     <string-array name="units_array">
         <item>Cup</item>

@@ -5,16 +5,16 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.example.flavoryapp.databinding.FragmentFavoriteBinding
+import com.example.flavoryapp.databinding.FragmentMyrecipesBinding
 
-class FavoriteFragment : Fragment() {
-    private lateinit var mBinding: FragmentFavoriteBinding
+class MyrecipesFragment : Fragment() {
+    private lateinit var mBinding: FragmentMyrecipesBinding
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        mBinding = FragmentFavoriteBinding.inflate(inflater)
+        mBinding = FragmentMyrecipesBinding.inflate(inflater)
         return mBinding.root
     }
 }

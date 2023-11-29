@@ -14,7 +14,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/poppinsbold"
-            android:textColor="#2E3E5C"
+            android:textColor="@color/black"
             android:text="Edit Profil"
             android:textSize="30sp"
             android:gravity="center"

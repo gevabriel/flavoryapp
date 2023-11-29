@@ -17,6 +17,4 @@ class ProfileFragment : Fragment() {
         mBinding = FragmentProfileBinding.inflate(inflater, container, false)
         return mBinding.root
     }
-
-
 }

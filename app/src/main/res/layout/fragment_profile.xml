@@ -24,6 +24,15 @@
                 android:orientation="vertical"
                 android:padding="15dp">
 
+                <ImageView
+                    android:id="@+id/profilesetting"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:src="@drawable/ic_settings"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
                 <com.google.android.material.imageview.ShapeableImageView
                     android:layout_width="80dp"
                     android:layout_height="80dp"

@@ -6,55 +6,9 @@
     <string name="recipe_search_hint">Enter recipe name</string>
     <string name="ingredient_search_hint">Enter ingredients name</string>
 
-    <string-array name="units_array">
-        <item>Cup</item>
-        <item>Table Spoon</item>
-        <item>Tea Spoon</item>
-        <item>Gram</item>
-        <item>Millilitre</item>
-        <item>Ounce</item>
-    </string-array>
-
-    <string-array name="category_array">
-        <item>For You</item>
-        <item>Vegetarian</item>
-        <item>Breakfast</item>
-        <item>Snack</item>
-        <item>Appetizer</item>
-        <item>Main Course</item>
-        <item>Salad</item>
-        <item>Dessert</item>
-        <item>Drink</item>
-    </string-array>
-
-    <string-array name="more_fragment_list">
-        <item>Unit Converter</item>
-    </string-array>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="label_search_by_colon">Search By:</string>
     <string name="label_recipes">Recipes</string>
     <string name="label_nutrients">Ingredients</string>
-
-    <string name="amit_kumar">Andi Budi</string>
-    <string name="username">andibud</string>
-    <string name="bio">I am A Professional Chef.</string>
-    <string name="profile">Profile</string>
-    <string name="about">About</string>
-    <string name="user_information">User Information</string>
-    <string name="username_">Username</string>
-    <string name="amitthecoder">andibud</string>
-    <string name="gender">Gender</string>
-    <string name="male">Male</string>
-    <string name="age">Age</string>
-    <string name="_21">20</string>
-    <string name="date_of_birth">Date of Birth</string>
-    <string name="_07_02_2003">07/02/2003</string>
-    <string name="mobile">Mobile</string>
-    <string name="_91_9000000009">+91 9000000009</string>
-    <string name="email">Email</string>
-    <string name="axxxxxxa_gmail_com">axxxxxxa@gmail.com</string>
-    <string name="social_media">Social Media</string>
-
-
 </resources>

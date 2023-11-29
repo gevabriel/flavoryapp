@@ -43,7 +43,7 @@
             android:backgroundTint="#BC1823"
             android:fontFamily="@font/poppinsregular"
             android:padding="8dp"
-            android:text="Upload Photo"
+            android:text="Upload Foto"
             android:textSize="14sp"
             app:cornerRadius="20dp"
             app:layout_constraintStart_toStartOf="parent"
@@ -139,7 +139,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="About"
+                android:hint="Bio"
                 tools:ignore="VisualLintTextFieldSize" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -187,7 +187,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="phone"
-                android:hint="Mobile"
+                android:hint="No. Hp"
                 tools:ignore="VisualLintTextFieldSize" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -220,7 +220,7 @@
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="28dp"
-            android:text="Male"
+            android:text="Pria"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/til_email" />
 
@@ -228,7 +228,7 @@
             android:id="@+id/rb_gender_Female"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:text="Female"
+            android:text="Wanita"
             app:layout_constraintStart_toEndOf="@+id/rb_gender_male"
             app:layout_constraintTop_toBottomOf="@+id/til_email" />
 

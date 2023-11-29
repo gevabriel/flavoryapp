@@ -40,7 +40,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/amit_kumar"
+                        android:text="Andi Budi"
                         android:textAlignment="center"
                         android:textSize="20sp"
                         android:fontFamily="@font/poppinsmedium"
@@ -72,7 +72,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textColor="@color/black"
-                        android:text="@string/about"
+                        android:text="Bio"
                         android:fontFamily="@font/poppinsmedium"
                         android:textSize="15sp"
                         android:layout_alignParentStart="true"
@@ -83,7 +83,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="30dp"
                         android:textColor="@color/black"
-                        android:text="@string/bio"
+                        android:text="I am a Professional Chef"
                         android:fontFamily="@font/poppinsregular"
                         android:textSize="15sp"
                         android:layout_alignParentStart="true" />
@@ -113,7 +113,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textColor="@color/black"
-                        android:text="@string/user_information"
+                        android:text="Informasi Pengguna"
                         android:fontFamily="@font/poppinsmedium"
                         android:textSize="15sp"
                         android:layout_alignParentStart="true"
@@ -131,7 +131,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textColor="@color/black"
-                        android:text="@string/username_"
+                        android:text="Username"
                         android:fontFamily="@font/poppinsmedium"
                         android:textSize="15sp"
                         android:layout_alignParentStart="true"
@@ -141,7 +141,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textColor="#6E6C6C"
-                        android:text="@string/amitthecoder"
+                        android:text="andibud"
                         android:fontFamily="@font/poppinsmedium"
                         android:textSize="15sp"
                         android:layout_alignParentEnd="true"
@@ -159,7 +159,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textColor="@color/black"
-                        android:text="@string/gender"
+                        android:text="Jenis Kelamin"
                         android:fontFamily="@font/poppinsmedium"
                         android:textSize="15sp"
                         android:layout_alignParentStart="true"
@@ -169,7 +169,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textColor="#6E6C6C"
-                        android:text="@string/male"
+                        android:text="Pria"
                         android:fontFamily="@font/poppinsmedium"
                         android:textSize="15sp"
                         android:layout_alignParentEnd="true"
@@ -187,7 +187,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textColor="@color/black"
-                        android:text="@string/age"
+                        android:text="Tanggal Lahir"
                         android:fontFamily="@font/poppinsmedium"
                         android:textSize="15sp"
                         android:layout_alignParentStart="true"
@@ -197,7 +197,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textColor="#6E6C6C"
-                        android:text="@string/_21"
+                        android:text="07/02/2003"
                         android:fontFamily="@font/poppinsmedium"
                         android:textSize="15sp"
                         android:layout_alignParentEnd="true"
@@ -215,7 +215,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textColor="@color/black"
-                        android:text="@string/date_of_birth"
+                        android:text="No. HP"
                         android:fontFamily="@font/poppinsmedium"
                         android:textSize="15sp"
                         android:layout_alignParentStart="true"
@@ -225,7 +225,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textColor="#6E6C6C"
-                        android:text="@string/_07_02_2003"
+                        android:text="08123456789"
                         android:fontFamily="@font/poppinsmedium"
                         android:textSize="15sp"
                         android:layout_alignParentEnd="true"
@@ -243,7 +243,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textColor="@color/black"
-                        android:text="@string/mobile"
+                        android:text="Email"
                         android:fontFamily="@font/poppinsmedium"
                         android:textSize="15sp"
                         android:layout_alignParentStart="true"
@@ -253,35 +253,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textColor="#6E6C6C"
-                        android:text="@string/_91_9000000009"
-                        android:fontFamily="@font/poppinsmedium"
-                        android:textSize="15sp"
-                        android:layout_alignParentEnd="true"
-                        android:textStyle="bold"/>
-                </RelativeLayout>
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="15dp"
-                    android:layout_marginStart="10dp"
-                    android:layout_marginEnd="10dp">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/black"
-                        android:text="@string/email"
-                        android:fontFamily="@font/poppinsmedium"
-                        android:textSize="15sp"
-                        android:layout_alignParentStart="true"
-                        android:textStyle="bold"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textColor="#6E6C6C"
-                        android:text="@string/axxxxxxa_gmail_com"
+                        android:text="andibud@gmail.com"
                         android:fontFamily="@font/poppinsmedium"
                         android:textSize="15sp"
                         android:layout_alignParentEnd="true"
@@ -296,38 +268,6 @@
             android:layout_marginTop="10dp"
             android:layout_marginBottom="30dp"
             app:cardCornerRadius="10dp">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:padding="15dp">
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
-                    android:layout_marginEnd="10dp">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/black"
-                        android:text="@string/social_media"
-                        android:fontFamily="@font/poppinsmedium"
-                        android:textSize="15sp"
-                        android:layout_alignParentStart="true"
-                        android:textStyle="bold"/>
-                </RelativeLayout>
-
-                <GridLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:useDefaultMargins="true"
-                    android:rowCount="1"
-                    android:columnCount="3">
-                </GridLayout>
-            </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
     </LinearLayout>
 </ScrollView>

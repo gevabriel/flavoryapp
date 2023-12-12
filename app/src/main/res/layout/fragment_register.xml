@@ -47,7 +47,7 @@
         android:layout_marginStart="28dp"
         android:layout_marginEnd="28dp"
         android:layout_marginTop="8dp"
-        android:hint="Email"
+        android:hint="Username"
         app:startIconDrawable="@drawable/ic_email"
         app:boxCornerRadiusTopStart="10dp"
         app:boxCornerRadiusTopEnd="10dp"
@@ -60,7 +60,7 @@
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/edt_email"
+            android:id="@+id/username"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
@@ -73,7 +73,7 @@
         android:layout_marginStart="28dp"
         android:layout_marginEnd="28dp"
         android:layout_marginTop="8dp"
-        android:hint="No Telepon"
+        android:hint="Nama"
         app:startIconDrawable="@drawable/ic_phone"
         app:boxCornerRadiusTopStart="10dp"
         app:boxCornerRadiusTopEnd="10dp"
@@ -86,7 +86,7 @@
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/edt_phone"
+            android:id="@+id/name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
@@ -114,37 +114,12 @@
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/edt_password"
+            android:id="@+id/password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword" />
 
     </com.google.android.material.textfield.TextInputLayout>
-
-    <TextView
-        android:id="@+id/tv_forget_password"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="120dp"
-        android:layout_marginTop="16dp"
-        android:text="Sudah punya akun?"
-        android:textColor="#2E3E5C"
-        android:fontFamily="@font/poppinsregular"
-        app:layout_constraintEnd_toEndOf="@id/til_password"
-        app:layout_constraintStart_toStartOf="@id/til_password"
-        app:layout_constraintTop_toBottomOf="@id/til_password"/>
-
-    <TextView
-        android:id="@+id/tv_register"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="4dp"
-        android:text="Login"
-        android:textColor="#BC1823"
-        android:fontFamily="@font/poppinsbold"
-        app:layout_constraintStart_toEndOf="@id/tv_forget_password"
-        app:layout_constraintTop_toTopOf="@id/tv_forget_password"
-        app:layout_constraintBottom_toBottomOf="@id/tv_forget_password"/>
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_login"

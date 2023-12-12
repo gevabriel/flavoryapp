@@ -1,7 +1,10 @@
 package com.example.flavoryapp
 
+import android.content.Context
+import android.content.Intent
 import android.graphics.PorterDuff
 import android.os.Bundle
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
@@ -11,6 +14,8 @@ import com.example.flavoryapp.databinding.ActivityMainBinding
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayout.OnTabSelectedListener
 import com.google.android.material.tabs.TabLayoutMediator
+import com.github.kittinunf.fuel.Fuel
+import com.google.gson.Gson
 
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding
@@ -23,8 +28,26 @@ class MainActivity : AppCompatActivity() {
     )
 
     private lateinit var pagerAdapter: MyPagerAdapter
+
+    private fun isLoggedIn(): Boolean {
+        val sharedPreferences = getSharedPreferences("MyPrefs", Context.MODE_PRIVATE)
+        return sharedPreferences.contains("username") && sharedPreferences.contains("password")
+    }
+
+    private fun navigateToLogin() {
+        val intent = Intent(this, LoginActivity::class.java)
+        startActivity(intent)
+        finish()
+    }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        // Check if the user is logged in
+        if (!isLoggedIn()) {
+            navigateToLogin()
+            return
+        }
+
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
@@ -75,6 +98,7 @@ class MainActivity : AppCompatActivity() {
                 )
             }
             override fun onTabReselected(tab: TabLayout.Tab) {}
+
         })
 
         pagerAdapter = MyPagerAdapter(this, fragments)

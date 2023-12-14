@@ -6,3 +6,5 @@ Anggota : <br>
 * Muhammad Basil Musyaffa A. (215150201111023)
 * Muhammad Fajrul Alwan (215150207111023)
 * Rizky Dwi Purnomo (215150201111005)
+
+Aplikasi diimplementasikan menggunakan Android Studio dengan menggunakan HTTP API server untuk melakukan pertukaran data. Kode program dapat dilihat pada repository github berikut https://github.com/gevabriel/flavoryapp. Untuk API server yang digunakan dapat dilihat pula pada repositori berikut https://github.com/aldisk/flavory-app.

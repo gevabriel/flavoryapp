@@ -7,4 +7,4 @@ Anggota : <br>
 * Muhammad Fajrul Alwan (215150207111023)
 * Rizky Dwi Purnomo (215150201111005)
 
-Aplikasi diimplementasikan menggunakan Android Studio dengan menggunakan HTTP API server untuk melakukan pertukaran data. Kode program dapat dilihat pada repository github ini, sedangkan untuk API server yang digunakan dapat dilihat pada repositori berikut https://github.com/aldisk/flavory-app.
+Aplikasi diimplementasikan menggunakan Android Studio dengan menggunakan HTTP API server untuk melakukan pertukaran data. Kode program dapat dilihat pada repository github ini, sedangkan untuk API server yang digunakan dapat dilihat pada repositori berikut https://github.com/aldisk/flavory-app. Untuk prototype dapat dilihat pada link berikut: https://www.figma.com/proto/fXroAxqNjAWozIaWCCtIAp/Flavory-(Mobile).

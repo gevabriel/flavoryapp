@@ -1,6 +1,6 @@
 ## Final Project Pemrograman Sistem Interaktif - D <br>
 ### Flavory <br>
-#### Aplikasi Resep Makanan <br>
+#### Aplikasi Berbagi Resep Masakan <br>
 Anggota : <br>
 * Aldiansyah Satrio Kabisat	(215150200111001)
 * Gibran Hakim (215150200111020)
